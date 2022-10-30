@@ -50,7 +50,7 @@ public class HangmanGame {
         }
     }
 
-    // Method returning trus if word is found by user
+    // Method returning true if word is found by user
     public boolean wordFound() {
         return wordToFind.contentEquals(new String(wordFound));
     }
